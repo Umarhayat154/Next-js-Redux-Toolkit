@@ -8,13 +8,11 @@ import New from '../components/New';
 
 export default function App() {
   const [amount, setAmount] = useState<number>(0);
-  
   const count = useSelector((state: RootState) => state.counter.value);
-  
   const dispatch = useDispatch();
 
   function handleIncrementClick() {
-    dispatch(increment());
+    dispatch(increment());jdldkkjsjlkdsk
   }
 
   function handleDecrementClick() {
