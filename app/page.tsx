@@ -11,7 +11,7 @@ export default function App() {
   const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch();
 
-  function handleIncrementClick() {
+  function handleIncrementClick1() {
     dispatch(increment());
   }
   function handleDecrementClick() {
@@ -34,7 +34,7 @@ export default function App() {
         </h1>
         <div className="flex items-center justify-center gap-4">
           <button
-            onClick={handleIncrementClick}
+            onClick={handleIncrementClick1}
             className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg text-xl"
           >
             +
