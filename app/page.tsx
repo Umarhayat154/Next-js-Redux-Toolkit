@@ -32,7 +32,6 @@ export default function App() {
         <h1 className="text-3xl font-bold text-center text-gray-800">
           Counter App
         </h1>
-
         <div className="flex items-center justify-center gap-4">
           <button
             onClick={handleIncrementClick}
