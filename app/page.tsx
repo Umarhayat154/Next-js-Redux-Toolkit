@@ -29,7 +29,7 @@ export default function App() {
     <div className="container mx-auto p-8 max-w-md">
       <New/>
       <div className="bg-white shadow-lg rounded-lg p-8 space-y-6">
-        <h1>Welcome to Counter App <button>Click here</button></h1>
+        <h1>Welcome to Counter App</h1>
         <h1 className="text-3xl font-bold text-center text-gray-800">
           Counter App
         </h1>
