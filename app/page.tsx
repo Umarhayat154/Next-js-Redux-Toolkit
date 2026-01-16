@@ -45,10 +45,6 @@ export default function App() {
             Count: {count}
           </p>
           
-          <p className="text-4xl font-bold text-blue-600">
-            Count: {count}
-          </p>
-          
           <button
             onClick={handleDecrementClick}
             className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg text-xl"
@@ -79,7 +75,7 @@ export default function App() {
             onClick={handleIncrementByAmountClick}
             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg"
           >
-            Increment by amount
+            Increment Amount
           </button>
         </div>
       </div>
